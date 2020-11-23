@@ -1,18 +1,13 @@
 .card {
   display: flex;
   flex-direction: column;
-  
+
   width: $card-width;
 
-  margin-left: $card-margin;
   padding: $card-padding;
 
   border: $card-border-weight solid $card-border-color;
   border-radius: $border-radius;
-
-  &:first-child {
-    margin-left: 0;
-  }
 
   &:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07);
@@ -78,6 +73,8 @@
     line-height: 38px;
     color: $secondary-color;
 
+    transition: background-color 1s, color 1s;
+
     cursor: pointer;
   }
 
@@ -85,5 +82,8 @@
     background-color: $secondary-color;
 
     color: $main-color;
+
+    transition: background-color 1s, color 1s;
+
   }
 }

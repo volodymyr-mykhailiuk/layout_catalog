@@ -28,8 +28,14 @@
     font-weight: 500;
     line-height: 14px;
 
+    transition: color 1s, transform 1s;
+
     &:hover {
       color: $main-color;
+
+      transform: scale(1.2);
+
+      transition: color 1s, transform 1s;
     }
   }
 
