@@ -28,6 +28,8 @@
     font-weight: 500;
     line-height: 14px;
 
+    transition: color 0.5s;
+
     &:hover {
       color: $main-color;
     }

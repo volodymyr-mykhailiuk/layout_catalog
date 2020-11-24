@@ -1,7 +1,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  
+
   width: $card-width;
 
   margin-left: $card-margin;
@@ -77,6 +77,8 @@
     text-transform: uppercase;
     line-height: 38px;
     color: $secondary-color;
+
+    transition: color 0.5s, background-color 0.5s;
 
     cursor: pointer;
   }
